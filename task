@@ -1,0 +1,6 @@
+Lanjutkan proyek artikel dari tugas Day 1.
+Buat file CSS eksternal dan hubungkan ke file HTML.
+Implementasikan konsep Box Model (penggunaan margin, padding, dan border yang proporsional) pada elemen-elemen HTML.
+Berikan styling untuk warna latar belakang (background-color) dan tipografi (font-family, font-size).
+Integrasikan library FontAwesome menggunakan link CDN dari CDNJS.
+Tambahkan minimal 3 ikon berbeda (misal: ikon sosial media) yang diletakkan di dalam tag <footer>.

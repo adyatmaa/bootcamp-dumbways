@@ -1,0 +1,38 @@
+:root {
+  margin: 24;
+  font-family: "Plus Jakarta Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  --bg-primary: oklch(92.9% 0.013 255.508);
+}
+
+.nav-head {
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--bg-primary);
+  padding-inline: 1rem;
+  padding-block: 0.5rem;
+  border-radius: 10px;
+
+  & .nav-head-child {
+    display: flex;
+    gap: 0.4rem;
+    align-items: center;
+  }
+}
+
+.card {
+  margin: 24;
+  padding: 12;
+  border-style: solid;
+  border-width: 1px;
+  border-radius: 10px;
+  background-color: var(--bg-primary);
+  font-weight: 200;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+}
