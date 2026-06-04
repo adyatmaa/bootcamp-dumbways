@@ -1,6 +1,8 @@
-Lanjutkan proyek artikel dari tugas Day 1.
-Buat file CSS eksternal dan hubungkan ke file HTML.
-Implementasikan konsep Box Model (penggunaan margin, padding, dan border yang proporsional) pada elemen-elemen HTML.
-Berikan styling untuk warna latar belakang (background-color) dan tipografi (font-family, font-size).
-Integrasikan library FontAwesome menggunakan link CDN dari CDNJS.
-Tambahkan minimal 3 ikon berbeda (misal: ikon sosial media) yang diletakkan di dalam tag <footer>.
+Buat sebuah tampilan yang memiliki form dengan dua input (Nama dan Pesan) beserta sebuah tombol Submit.
+Tambahkan Navbar menggunakan Bootstrap yang responsif (hamburger menu saat di layar kecil).
+Tangkap event submit pada form menggunakan JavaScript (addEventListener).
+Gunakan event.preventDefault() agar halaman tidak refresh saat form dikirim.
+Simpan value dari masing-masing input ke dalam variabel.
+Gunakan manipulasi DOM untuk merender value tersebut ke dalam sebuah list (<ul>/<li> atau table) di bawah form secara dinamis.
+Kosongkan kembali nilai input pada form setelah data berhasil dirender ke layar.
+Implementasikan sistem Grid Bootstrap atau utility Flexbox untuk memastikan letak form dan list pesan sejajar horizontal di layar desktop dan menurun (vertikal) di layar mobile.
