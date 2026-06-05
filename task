@@ -1,8 +1,6 @@
-Buat sebuah tampilan yang memiliki form dengan dua input (Nama dan Pesan) beserta sebuah tombol Submit.
-Tambahkan Navbar menggunakan Bootstrap yang responsif (hamburger menu saat di layar kecil).
-Tangkap event submit pada form menggunakan JavaScript (addEventListener).
-Gunakan event.preventDefault() agar halaman tidak refresh saat form dikirim.
-Simpan value dari masing-masing input ke dalam variabel.
-Gunakan manipulasi DOM untuk merender value tersebut ke dalam sebuah list (<ul>/<li> atau table) di bawah form secara dinamis.
-Kosongkan kembali nilai input pada form setelah data berhasil dirender ke layar.
-Implementasikan sistem Grid Bootstrap atau utility Flexbox untuk memastikan letak form dan list pesan sejajar horizontal di layar desktop dan menurun (vertikal) di layar mobile.
+Buat tampilan HTML berisi form untuk menambahkan pengeluaran (Input Nama Pengeluaran dan Input Nominal/Harga).
+Implementasikan validasi kondisional (if/else): form tidak boleh ditambahkan jika ada input yang masih kosong.
+Jika validasi lolos, simpan data pengeluaran baru ke dalam struktur data Array of Objects di JavaScript.
+Buat function untuk merender seluruh isi Array of Objects ke layar (DOM) secara dinamis menggunakan teknik looping.
+Simpan Array of Objects tersebut ke dalam localStorage setiap kali ada data baru yang ditambahkan (gunakan JSON.stringify).
+Pastikan saat halaman browser di-refresh, aplikasi akan membaca data dari localStorage (JSON.parse) dan merendernya kembali ke layar sehingga data tidak hilang.
