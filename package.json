@@ -1,0 +1,24 @@
+{
+  "name": "bootcamp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "counter.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adyatmaa/bootcamp-dumbways.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/adyatmaa/bootcamp-dumbways/issues"
+  },
+  "homepage": "https://github.com/adyatmaa/bootcamp-dumbways#readme",
+  "devDependencies": {
+    "typescript": "^6.0.3"
+  }
+}

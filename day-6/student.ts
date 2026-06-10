@@ -1,4 +1,10 @@
-const student = [
+type Student = {
+  name: string;
+  class: string;
+  grade: number;
+};
+
+const student: Student[] = [
   {
     name: "Florri",
     class: "DevOps",
@@ -51,13 +57,13 @@ const student = [
   },
 ];
 
-const row = document.getElementById("student-rows");
-const studentName = document.getElementById("student-name");
-const mean = document.getElementById("mean");
+const row = document.getElementById("student-rows") as HTMLElement;
+const studentName = document.getElementById("student-name") as HTMLInputElement;
+const mean = document.getElementById("mean") as HTMLElement;
 
-const renderElement = (array) => {
+const renderElement = (array?: Student[]): void => {
   let studentHtml = "";
-  let renderedArray = array || student;
+  let renderedArray: Student[] = array || student;
   renderedArray.map((item, i) => {
     return (studentHtml += `
         <tr>
@@ -69,14 +75,14 @@ const renderElement = (array) => {
   });
 
   row.innerHTML = studentHtml;
-  
+
   const studentMean = renderedArray.reduce((item, val) => item + val.grade, 0);
-  mean.innerText = Math.floor(studentMean / renderedArray.length);
+  mean.innerText = Math.floor(studentMean / renderedArray.length).toString();
 };
 
 renderElement();
 
-studentName.addEventListener("keyup", () => {
+studentName.addEventListener("keyup", (): void => {
   const inputVal = studentName.value;
   if (inputVal !== "") {
     const filteredItems = student.filter((item) =>
